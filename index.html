@@ -11,8 +11,8 @@
 <body>
 
     <div id="app">
-        <ul>
-            <li v-for="(element) in arrayMail">{{element}}</li>
+        <ul v-if="(arrayMail.length == 10)">
+            <li v-for="(element) in arrayMail" >{{element}}</li>
         </ul>
         
     </div>
